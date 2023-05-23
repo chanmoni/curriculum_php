@@ -1,0 +1,59 @@
+@media screen and (max-width: 767px) {
+      /*headerの横幅を250pxにする*/
+      /*rightの横幅を100pxにする*/
+      /*footerの横幅を250pxにする*/
+      .top {
+        width: 300px;
+      }
+
+      .green {
+        width: 100px;
+      }
+      .middle-4 {
+        width: 125px;
+      }
+      .orange {
+        width: 75px;
+      }
+      .red {
+        width: 200px;
+      }
+      .bottom{
+        width: 300px;
+      }
+}
+
+@media screen and (max-width: 479px) {
+      /*headerの横幅を250pxにする*/
+      /*rightの横幅を100pxにする*/
+      /*footerの横幅を250pxにする*/
+      .wrapper{
+        width: 150px;
+
+      }
+
+      .top {
+        width: 150px;
+      }
+      .green {
+        width: 150px;
+      }
+      .middle{
+        flex-direction: column;
+      }
+      
+      div[class^="middle"] {
+        flex-direction: column;
+      }
+      .red {
+        width: 150px;
+      }
+
+      .orange{
+        width: 150px;
+      }
+      
+      .bottom {
+        width: 150px;
+      }
+}
